@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.listadecompras">
 
@@ -7,5 +8,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" />
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".CadastroDeProtudos"
+            android:label="@string/title_activity_cadastro_de_protudos"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".CadastroDeListas"
+            android:label="@string/title_activity_cadastro_de_listas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
 </manifest>
